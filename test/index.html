@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test Phone Service</title>
+</head>
+<body>
+  <button id="setPhoneBtn">Set phone number</button>
+
+  <script type="module">
+    import { setPhone } from '../dist/index.js';
+
+    document.getElementById('setPhoneBtn').addEventListener('click', async () => {
+      const phone = await setPhone();
+    });
+  </script>
+</body>
+</html>
