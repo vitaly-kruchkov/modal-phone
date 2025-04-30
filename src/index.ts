@@ -1,6 +1,5 @@
 import { ModalPhone } from './ModalPhone';
 
-let registered = false;
 let modalInstance: ModalPhone | null = null;
 
 export async function setPhone(): Promise<string> {
