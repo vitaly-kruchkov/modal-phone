@@ -14,4 +14,4 @@ Custom modal web component for set phone number.
 To install in npm:
 
 ```bash
-npm install @vkruychkov/phone-service
+npm install modal-phone-service

@@ -1,28 +1,38 @@
 {
-    "name": "@vkruychkov/phone-service",
-    "version": "1.0.0",
-    "description": "Custom modal web component for set phone number",
-    "main": "dist/index.js",
-    "module": "dist/index.es.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "rollup -c"
-    },
-    "files": ["dist"],
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
-    "keywords": [
-        "web-component",
-        "modal",
-        "phone",
-        "custom-element"
-    ],
-    "devDependencies": {
-        "@rollup/plugin-typescript": "^12.1.2",
-        "rollup": "^3.0.0",
-        "rollup-plugin-string": "^3.0.0",
-        "typescript": "^5.0.0"
-    }
+  "name": "modal-phone-service",
+  "version": "1.0.0",
+  "description": "Custom modal web component for set phone number",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web-component",
+    "modal",
+    "phone",
+    "custom-element"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitaly-kruchkov/modal-phone"
+  },
+  "bugs": {
+    "url": "https://github.com/vitaly-kruchkov/modal-phone/issues"
+  },
+  "homepage": "https://github.com/vitaly-kruchkov/modal-phone#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^3.0.0",
+    "rollup-plugin-string": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
 }
